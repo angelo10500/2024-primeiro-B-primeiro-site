@@ -1,7 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Merienda:wght@300..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
 :root{
     --preto: #0d1321ff;
     --azul: #1d2d44ff;
     --cinzaclaro: #3e5c76ff;
     --azulfraco: #748cabff;
     --amareloclaro: #f0ebd8ff;
+    --fonte-titulo:font-family: "Merienda", cursive;
+    --fonte-texto:font-family: "Indie Flower", cursive;
+}
+
+body{
+    background-color: var(--azulfraco);
+    font-family: var(--fonte-texto);
+}
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--cinzaclaro);
 }
