@@ -47,4 +47,40 @@ margin-right: 1em;
     transition: 0.3s;
 }
 
+.principal-capa{
+    background-color: var(--amareloclaro);
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+    padding: 1.5em;
+}
+
+.principal-capa_titulo{
+    font-size: 5em;
+    font-family: var(--fonte-titulo);
+}
+
+.principal-capa_texto{
+    font-size: 3em;
+}
+
+.principal-capa_img{
+    width: 30%;
+    border-radius: 10px;
+}
+.principal-capa_botao{
+    background-color: var(--preto);
+    text-decoration: none;
+    padding: 1.3em;
+    color: var(--azulfraco);
+    margin-top: 2px;
+    border-radius: 10px;
+    font-size: 1.5em;
+}
+
+.principal-capa_combotao{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
 
